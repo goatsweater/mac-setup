@@ -18,6 +18,8 @@ This process leverages Jeff Geerling's excellent `Mac Development Ansible Playbo
    :maxdepth: 2
    :caption: Contents:
 
+   setup
+
 
 
 Indices and tables

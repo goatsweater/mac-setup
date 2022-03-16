@@ -1,0 +1,23 @@
+homebrew_installed_packages:
+- argo
+- direnv
+- graphviz
+- jq
+- k9s
+- yq
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+- rancher
+- firefox
+- slack
+
+mas_installed_apps:
+- { id: 1122008420, name: "Table Tool" }
+- { id: 1084713122, name: "Markoff" }
+- { id: 1282504627, name: "Mimeo Photos" }
+- { id: 1544743900, name: "Hush" }
+- { id: 407963104, name: "Pixelmator" }
+- { id: 1278508951, name: "" }
+- { id: , name: "Trello" }
+- { id: 497799835, name: "Xcode" }

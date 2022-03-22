@@ -32,3 +32,4 @@ mas_installed_apps:
 - { id: 1278508951, name: "Trello" }
 - { id: 497799835, name: "Xcode" }
 - { id: 937984704, name: "Amphetamine" }
+- { id: 882637653, name: "Debit & Credit" }

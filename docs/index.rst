@@ -19,7 +19,8 @@ This process leverages Jeff Geerling's excellent `Mac Development Ansible Playbo
    :caption: Contents:
 
    setup
-
+   software/webodm
+   software/osm
 
 
 Indices and tables

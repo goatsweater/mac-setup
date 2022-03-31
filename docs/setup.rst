@@ -8,9 +8,9 @@ configure as much as possible.
 Setup wizard
 ------------
 
-.. todo::
-
-    Document the process of filling out the setup wizard.
+Follow the setup wizard to configure a new mac, including signing into iCloud.
+Rather than transfering data from an existing mac, just complete the basic setup
+steps and come back to this once complete.
 
 CLI tools
 ---------

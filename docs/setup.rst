@@ -27,7 +27,9 @@ Ansible
 
 Install ansible to be able to run the playbook.
 
-1. ``pip3 install --user ansible``
+1. Upgrade pip: ``sudo pip3 install --upgrade pip``
+2. Install ansible for the user: ``pip3 install --user ansible``
+3. Update $PATH: ``export PATH="$HOME/Library/Python/3.8/bin:$PATH"``
 
 Using the files under :file:`ansible`, run the playbook.
 

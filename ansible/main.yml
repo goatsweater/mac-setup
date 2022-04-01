@@ -78,3 +78,4 @@
   - role: geerlingguy.dotfiles
     tags: ['dotfiles']
   - role: lafarer.osx-defaults
+    tags: ['defaults']

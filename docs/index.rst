@@ -19,6 +19,7 @@ This process leverages Jeff Geerling's excellent `Mac Development Ansible Playbo
    :caption: Contents:
 
    setup
+   software/ohmyzsh
    software/webodm
    software/osm
 

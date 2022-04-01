@@ -1,6 +1,7 @@
 ---
 roles:
 - name: elliotweiser.osx-command-line-tools
+- name: lafarer.osx-defaults
 
 collections:
 - name: geerlingguy.mac

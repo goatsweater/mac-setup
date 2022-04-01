@@ -1,0 +1,11 @@
+AppStore_AutomaticCheckEnabled: yes
+AppStore_AutomaticDownload: yes
+AppStore_ConfigDataInstall: yes
+AppStore_CriticalUpdateInstall: yes
+
+Dock_Orientation: "right"
+
+Finder_ShowExternalHardDrivesOnDesktop: yes
+Finder_ShowMountedServersOnDesktop: yes
+
+Safari_SearchEngine: "DuckDuckGo"

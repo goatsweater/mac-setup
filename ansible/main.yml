@@ -4,28 +4,35 @@
   vars:
     downloads: ~/.ansible-downloads/
 
+    pre_tasks:
+    - name: Include macOS defaults configuration
+      include_vars: "{{ item }}"
+      with_fileglob:
+      - "{{ playbook_dir }}/macos_defaults.yml"
+      tags: ["always"]
+
     homebrew_installed_packages:
     - argo
     - direnv
     - graphviz
     - jq
     - k9s
-    - miniforge
     - yq
 
     homebrew_cask_appdir: /Applications
     homebrew_cask_apps:
     - rancher
     - firefox
+    - miniforge
     - slack
     - rstudio
     - coolterm
     - db-browser-for-sqlite
-    - folding-at-home
+    # - folding-at-home
     - github
     - grandperspective
     - iina
-    - microsoft-teams
+    # - microsoft-teams
     - raspberry-pi-imager
     - visual-studio-code
 
@@ -61,3 +68,6 @@
     tags: ['mas']
   - role: geerlingguy.mac.dock
     tags: ['dock']
+  - role: geerlingguy.dotfiles
+    tags: ['dotfiles']
+  - role: lafarer.osx-defaults

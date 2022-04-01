@@ -54,7 +54,7 @@
       pos: 6
 
   roles:
-  - role: elliotweser.osx-command-line-tools
+  - role: elliotweiser.osx-command-line-tools
   - role: geerlingguy.mac.homebrew
   - role: geerlingguy.mac.mas
   - role: geerlingguy.mac.dock

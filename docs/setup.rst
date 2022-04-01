@@ -20,7 +20,7 @@ CLI tools
 Apple's command line tools are required to complete the setup, but more than that
 they are just generally useful. Install them through the Terminal::
 
-    xocde-select --install
+    xcode-select --install
 
 Homebrew
 --------

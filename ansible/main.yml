@@ -59,6 +59,12 @@
     - name: "Visual Studio Code"
       path: "/Applications/Visual Studio Code.app/"
       pos: 6
+    
+    dotfiles_repo: https://github.com/goatsweater/dotfiles.git
+    dotfiles_repo_accept_hostkey: true
+    dotfiles_repo_local_destination: ~/Development/dotfiles
+    dotfiles_files:
+    - .zshrc
 
   roles:
   - role: elliotweiser.osx-command-line-tools

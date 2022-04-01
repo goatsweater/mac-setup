@@ -1,0 +1,60 @@
+---
+- hosts: all
+
+  vars:
+    downloads: ~/.ansible-downloads/
+
+    homebrew_installed_packages:
+    - argo
+    - direnv
+    - graphviz
+    - jq
+    - k9s
+    - miniforge
+    - yq
+
+    homebrew_cask_appdir: /Applications
+    homebrew_cask_apps:
+    - rancher
+    - firefox
+    - slack
+    - rstudio
+    - coolterm
+    - db-browser-for-sqlite
+    - folding-at-home
+    - github
+    - grandperspective
+    - iina
+    - microsoft-teams
+    - raspberry-pi-imager
+    - visual-studio-code
+
+    mas_installed_apps:
+    - { id: 1122008420, name: "Table Tool" }
+    - { id: 1084713122, name: "Markoff" }
+    - { id: 1282504627, name: "Mimeo Photos" }
+    - { id: 1544743900, name: "Hush" }
+    - { id: 407963104, name: "Pixelmator" }
+    - { id: 1278508951, name: "Trello" }
+    - { id: 497799835, name: "Xcode" }
+    - { id: 937984704, name: "Amphetamine" }
+    - { id: 882637653, name: "Debit & Credit" }
+
+    dockitems_remove:
+    - TV
+    - Podcasts
+    - News
+    - "App Store"
+    - Contacts
+    - Maps
+    - Calendar
+    dockitems_persist:
+    - name: "Visual Studio Code"
+      path: "/Applications/Visual Studio Code.app/"
+      pos: 6
+
+  roles:
+  - role: elliotweser.osx-command-line-tools
+  - role: geerlingguy.mac.homebrew
+  - role: geerlingguy.mac.mas
+  - role: geerlingguy.mac.dock

@@ -43,4 +43,11 @@ Using the files under :file:`ansible`, run the playbook.
     If homebrew commands fail it's likely a license agreement prompt. Run
     ``brew doctor`` to see what is going on.
 
+.. warning::
+
+    Xcode causes a failure because you need to accept a license agreement. A message is shown
+    explaining how to accept the license at the command line, or it can be done via the GUI.
+
+    After accepting the agreement, rerun the playbook to finish remaining tasks.
+
 .. _Mac Development Ansible Playbook: https://github.com/geerlingguy/mac-dev-playbook

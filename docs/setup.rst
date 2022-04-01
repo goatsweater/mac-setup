@@ -2,8 +2,8 @@ Initial setup
 =============
 
 The initial setup of the system consists of following the basic setup wizard,
-then leverages Jeff Geerling's `Mac Development Ansible Playbook`_ to install and
-configure as much as possible.
+then leverages parts of Jeff Geerling's `Mac Development Ansible Playbook`_ to 
+install and configure as much as possible.
 
 Setup wizard
 ------------
@@ -22,11 +22,23 @@ they are just generally useful. Install them through the Terminal::
 
     xcode-select --install
 
-Homebrew
+Ansible
 --------
 
-Use the instructions from the `Homebrew project <https://brew.sh>`_ to install
-the ``brew`` command.
+Install ansible to be able to run the playbook.
 
+1. ``pip3 install --user ansible``
+
+Using the files under :file:`ansible`, run the playbook.
+
+.. code-block::
+
+   ansible-galaxy install -r requirements.yml
+   ansible-playbook main.yml --ask-become-pass
+
+.. note::
+
+    If homebrew commands fail it's likely a license agreement prompt. Run
+    ``brew doctor`` to see what is going on.
 
 .. _Mac Development Ansible Playbook: https://github.com/geerlingguy/mac-dev-playbook

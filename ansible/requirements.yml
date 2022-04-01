@@ -2,6 +2,7 @@
 roles:
 - name: elliotweiser.osx-command-line-tools
 - name: lafarer.osx-defaults
+- name: geerlingguy.dotfiles
 
 collections:
 - name: geerlingguy.mac

@@ -43,6 +43,11 @@ Using the files under :file:`ansible`, run the playbook.
     If homebrew commands fail it's likely a license agreement prompt. Run
     ``brew doctor`` to see what is going on.
 
+.. note::
+
+    There seemed to be a point where ansible got hung up on something. For whatever reason,
+    adding ``ANSIBLE_SSH_PIPELINING=0`` in front of the ``ansible-playbook`` resolves the issue.
+
 .. warning::
 
     Xcode causes a failure because you need to accept a license agreement. A message is shown

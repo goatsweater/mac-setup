@@ -22,6 +22,7 @@ This process leverages Jeff Geerling's excellent `Mac Development Ansible Playbo
    software/ohmyzsh
    software/safari
    software/rancher
+   software/miniforge
    software/webodm
    software/osm
 

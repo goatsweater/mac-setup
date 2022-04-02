@@ -18,3 +18,12 @@ The solution then is to get them onto the path through manual linking until the 
 
     # Rancher Desktop
     export PATH="/opt/rancher-desktop/bin:$PATH
+
+Docker alias
+------------
+
+Given the prevalence of Docker, there are a lot of scripts and other tools that assume the presence
+of the ``docker`` command. Although ``nerdctl`` performs the same operations, manually translating
+things is a pain. Instead, create an alias in :file:`.zshrc`::
+
+    alias docker='nerdctl'

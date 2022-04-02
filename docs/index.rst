@@ -21,6 +21,7 @@ This process leverages Jeff Geerling's excellent `Mac Development Ansible Playbo
    setup
    software/ohmyzsh
    software/safari
+   software/rancher
    software/webodm
    software/osm
 

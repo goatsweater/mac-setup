@@ -79,3 +79,15 @@
     tags: ['dotfiles']
   - role: lafarer.osx-defaults
     tags: ['defaults']
+  - role: gantsign.visual-studio-code-extensions
+    tags: ['vscode']
+    users:
+    - username: goatsweater
+      visual_studio_code_extensions:
+      - wholroyd.jinja
+      - ms-python.python
+      - ms-kubernetes-tools.vscode-kubernetes-tools
+      - redhat.vscode-yaml
+      - lextudio.restructuredtext
+      - ms-toolsai.jupyter
+

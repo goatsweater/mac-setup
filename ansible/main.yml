@@ -21,22 +21,22 @@
 
     homebrew_cask_appdir: /Applications
     homebrew_cask_apps:
-    - devtoys
-    - rancher
-    - firefox
-    - miniforge
-    - slack
-    - prusaslicer
-    - r
-    - rstudio
     - coolterm
     - db-browser-for-sqlite
+    - devtoys
+    - firefox
     # - folding-at-home
     - github
     - grandperspective
     - iina
-    # - microsoft-teams
+    - microsoft-teams
+    - miniforge
+    - prusaslicer
+    - r
+    - rancher
     - raspberry-pi-imager
+    - rstudio
+    - slack
     - visual-studio-code
 
     mas_installed_apps:

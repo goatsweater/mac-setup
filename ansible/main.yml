@@ -26,6 +26,7 @@
     - firefox
     - miniforge
     - slack
+    - r
     - rstudio
     - coolterm
     - db-browser-for-sqlite

@@ -3,6 +3,7 @@ roles:
 - name: elliotweiser.osx-command-line-tools
 - name: lafarer.osx-defaults
 - name: geerlingguy.dotfiles
+- name: gantsign.visual-studio-code
 - name: gantsign.visual-studio-code-extensions
 
 collections:

@@ -9,3 +9,5 @@ Finder_ShowExternalHardDrivesOnDesktop: yes
 Finder_ShowMountedServersOnDesktop: yes
 
 Safari_SearchEngine: "DuckDuckGo"
+Safari_ShowDeloperMenu: yes
+Safari_ShowOverlayStatusBar: yes

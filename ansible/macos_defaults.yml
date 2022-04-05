@@ -5,8 +5,11 @@ AppStore_CriticalUpdateInstall: yes
 
 Dock_Orientation: "right"
 
+Finder_AppleShowAllExtensions: yes
+Finder_FXDefaultSearchScope: "SCcf"
 Finder_ShowExternalHardDrivesOnDesktop: yes
 Finder_ShowMountedServersOnDesktop: yes
+Finder_ShowStatusBar: yes
 
 Safari_SearchEngine: "DuckDuckGo"
 Safari_ShowDeloperMenu: yes

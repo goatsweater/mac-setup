@@ -17,6 +17,7 @@
     - graphviz
     - jq
     - k9s
+    - kustomize
     - yq
 
     homebrew_cask_appdir: /Applications
@@ -32,6 +33,7 @@
     - microsoft-teams
     - miniforge
     - prusaslicer
+    - qgis
     - r
     - rancher
     - raspberry-pi-imager

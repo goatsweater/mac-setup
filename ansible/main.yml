@@ -14,9 +14,11 @@
     homebrew_installed_packages:
     - argo
     - direnv
+    - ffmpeg
     - graphviz
     - jq
     - k9s
+    - kubectx
     - kustomize
     - yq
 
